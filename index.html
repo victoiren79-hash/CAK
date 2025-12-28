@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAK | Come Again, Kicukiro - Bar & Grill</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">CAK</div>
+            <div class="header-actions">
+                <button class="btn-contact">
+                    <i class="fas fa-phone-alt"></i> Contact
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Background Image -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="location-badge">Kigali</div>
+                <h1 class="restaurant-name">Come Again, Kicukiro</h1>
+                <div class="rating-info">
+                    <div class="stars">
+                        <span class="star filled"><i class="fas fa-star"></i></span>
+                        <span class="star filled"><i class="fas fa-star"></i></span>
+                        <span class="star filled"><i class="fas fa-star"></i></span>
+                        <span class="star filled"><i class="fas fa-star"></i></span>
+                        <span class="star half"><i class="fas fa-star-half-alt"></i></span>
+                    </div>
+                    <span class="rating-value">3.8</span>
+                    <span class="review-count">(736 reviews)</span>
+                </div>
+                <p class="category">Bar & Grill</p>
+                <div class="open-status">
+                    <span class="status-dot open"></span>
+                    <span class="status-text">Open now</span>
+                    <span class="hours">9:00 AM – 11:30 PM</span>
+                </div>
+                <div class="hero-actions">
+                    <button class="btn-hero">
+                        <i class="fas fa-utensils"></i> View Menu
+                    </button>
+                    <button class="btn-hero secondary">
+                        <i class="fas fa-directions"></i> Get Directions
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="main-content">
+        
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <h2 class="section-title">About</h2>
+                <p class="about-description">Come Again is a modern bar and grill located in the vibrant Kicukiro district of Kigali. We blend traditional Rwandan flavors with contemporary cooking techniques to create a memorable dining experience in a relaxed, welcoming atmosphere.</p>
+                
+                <div class="why-visit">
+                    <h3>Why you should go</h3>
+                    <ul class="visit-reasons">
+                        <li><i class="fas fa-check-circle"></i> <strong>Locally sourced ingredients</strong> - Fresh produce from local farmers and markets</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Expertly crafted cocktails</strong> - Creative drinks made by our award-winning mixologists</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Live music weekends</strong> - Enjoy local artists every Friday and Saturday evening</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tabs Section -->
+        <section class="tabs-section">
+            <div class="container">
+                <div class="tabs-header">
+                    <button class="tab-btn active" data-tab="menu">Menu</button>
+                    <button class="tab-btn" data-tab="beer">Beer</button>
+                    <button class="tab-btn" data-tab="map">Map</button>
+                </div>
+                
+                <div class="tab-content active" id="menu-tab">
+                    <h3>Our Specialties</h3>
+                    <div class="menu-category">
+                        <h4>Signature Dishes</h4>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="Akabenzi.jpg"alt="Akabenzi and Potatoes">
+                            </div>
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h5>Akabenzi and Potatoes</h5>
+                                    <span class="price">12,500 RWF</span>
+                                </div>
+                                <p class="menu-item-desc">Traditional Rwandan pork dish served with seasoned potatoes. A flavorful combination of tender pork and perfectly cooked potatoes.</p>
+                                <div class="menu-tags">
+                                    <span class="tag popular">Popular</span>
+                                    <span class="tag spicy">Spicy</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="plantains.jpg" alt="Fried Plantains with Fried Pork Dumplings">
+                            </div>
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h5>Fried Plantains with Fried Pork Dumplings</h5>
+                                    <span class="price">9,800 RWF</span>
+                                </div>
+                                <p class="menu-item-desc">Crispy fried plantains served with savory pork dumplings. A perfect balance of sweet and savory flavors.</p>
+                                <div class="menu-tags">
+                                    <span class="tag new">New</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="matok.jpg" alt="Akabenz with Matoke Special">
+                            </div>
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h5>Akabenz with Matoke Special</h5>
+                                    <span class="price">11,200 RWF</span>
+                                </div>
+                                <p class="menu-item-desc">Traditional Rwandan pork served with matoke (cooked bananas). A hearty and satisfying meal with authentic flavors.</p>
+                                <div class="menu-tags">
+                                    <span class="tag popular">Popular</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="AB.jpg" alt="Akabenzi and Bananas">
+                            </div>
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h5>Akabenzi and Bananas</h5>
+                                    <span class="price">10,500 RWF</span>
+                                </div>
+                                <p class="menu-item-desc">Succulent pork served with sweet bananas. A classic Rwandan combination that never disappoints.</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="pickles.jpg" alt="Fried Pickles">
+                            </div>
+                            <div class="menu-item-details">
+                                <div class="menu-item-header">
+                                    <h5>Fried Pickles</h5>
+                                    <span class="price">3,500 RWF</span>
+                                </div>
+                                <p class="menu-item-desc">Crispy, golden-fried pickles served with our special dipping sauce. The perfect appetizer to start your meal.</p>
+                                <div class="menu-tags">
+                                    <span class="tag appetizer">Appetizer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-secondary view-full-menu">
+                        <i class="fas fa-utensils"></i> View full menu
+                    </button>
+                </div>
+                
+                <div class="tab-content" id="beer-tab">
+                    <h3>Beer Selection</h3>
+                    <div class="beer-category">
+                        <h4>Local Brews</h4>
+                        <div class="beer-item">
+                            <div class="beer-item-image">
+                                <img src="https://images.unsplash.com/photo-1629734712341-16b3c121d2e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Mützig Premium">
+                            </div>
+                            <div class="beer-item-details">
+                                <h5>Mützig Premium</h5>
+                                <p class="beer-desc">Rwanda's flagship lager, crisp and refreshing</p>
+                                <span class="beer-size">500ml - 2,500 RWF</span>
+                            </div>
+                        </div>
+                        <div class="beer-item">
+                            <div class="beer-item-image">
+                                <img src="https://images.unsplash.com/photo-1600788886242-5c96aabe3757?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Primus">
+                            </div>
+                            <div class="beer-item-details">
+                                <h5>Primus</h5>
+                                <p class="beer-desc">Light and smooth, Rwanda's most popular beer</p>
+                                <span class="beer-size">500ml - 2,300 RWF</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="beer-category">
+                        <h4>Imported</h4>
+                        <div class="beer-item">
+                            <div class="beer-item-image">
+                                <img src="https://images.unsplash.com/photo-1608270586620-248524c67de9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Heineken">
+                            </div>
+                            <div class="beer-item-details">
+                                <h5>Heineken</h5>
+                                <p class="beer-desc">Dutch lager with a balanced bitter taste</p>
+                                <span class="beer-size">330ml - 3,000 RWF</span>
+                            </div>
+                        </div>
+                        <div class="beer-item">
+                            <div class="beer-item-image">
+                                <img src="https://images.unsplash.com/photo-1586993451231-6d3c277bc911?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Stella Artois">
+                            </div>
+                            <div class="beer-item-details">
+                                <h5>Stella Artois</h5>
+                                <p class="beer-desc">Belgian pilsner with a crisp, refreshing taste</p>
+                                <span class="beer-size">330ml - 3,200 RWF</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="map-tab">
+                    <h3>Location</h3>
+                    <div class="map-placeholder">
+                        <div class="map-image">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <p class="map-address">KN 45 St, Kicukiro, Kigali, Rwanda</p>
+                    </div>
+                    <button class="btn-secondary">
+                        <i class="fas fa-directions"></i> Get directions
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Practical Info -->
+        <section class="practical-info">
+            <div class="container">
+                <h2 class="section-title">Practical Information</h2>
+                <div class="info-card">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>KN 45 St, Kicukiro, Kigali, Rwanda</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h4>Opening Hours</h4>
+                            <p>Monday - Sunday: 9:00 AM – 11:30 PM</p>
+                            <p class="hours-note">Kitchen closes at 10:30 PM</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+250 788 123 456</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <a href="#" class="website-link">www.comeagain.rw</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews Section -->
+        <section class="reviews">
+            <div class="container">
+                <h2 class="section-title">Customer Reviews</h2>
+                <div class="rating-summary">
+                    <div class="overall-rating">
+                        <span class="rating-number">3.8</span>
+                        <div class="stars large">
+                            <span class="star filled"><i class="fas fa-star"></i></span>
+                            <span class="star filled"><i class="fas fa-star"></i></span>
+                            <span class="star filled"><i class="fas fa-star"></i></span>
+                            <span class="star filled"><i class="fas fa-star"></i></span>
+                            <span class="star half"><i class="fas fa-star-half-alt"></i></span>
+                        </div>
+                        <span class="total-reviews">Based on 736 reviews</span>
+                    </div>
+                </div>
+                
+                <div class="review-highlights">
+                    <div class="review-card">
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">JM</div>
+                            <div>
+                                <h5 class="reviewer-name">Jean M.</h5>
+                                <div class="stars small">
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">The Akabenzi and Potatoes is my favorite dish here! Perfectly cooked pork with amazing seasoning. The atmosphere is always welcoming.</p>
+                        <span class="review-date">2 weeks ago</span>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">AD</div>
+                            <div>
+                                <h5 class="reviewer-name">Alice D.</h5>
+                                <div class="stars small">
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">Great spot for a weekend dinner. The Fried Plantains with Pork Dumplings were incredible! Will definitely come again.</p>
+                        <span class="review-date">1 month ago</span>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="reviewer-info">
+                            <div class="reviewer-avatar">PT</div>
+                            <div>
+                                <h5 class="reviewer-name">Paul T.</h5>
+                                <div class="stars small">
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star filled"><i class="fas fa-star"></i></span>
+                                    <span class="star"><i class="far fa-star"></i></span>
+                                    <span class="star"><i class="far fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="review-text">The Akabenz with Matoke Special was authentic and delicious. Service was a bit slow but the food made up for it.</p>
+                        <span class="review-date">3 months ago</span>
+                    </div>
+                </div>
+                
+                <button class="btn-secondary" id="see-more-reviews">
+                    <i class="fas fa-comment-alt"></i> See more reviews
+                </button>
+            </div>
+        </section>
+
+        <!-- Know Before You Go -->
+        <section class="tips">
+            <div class="container">
+                <h2 class="section-title">Know before you go</h2>
+                <div class="tips-list">
+                    <div class="tip-item">
+                        <i class="fas fa-utensils"></i>
+                        <div>
+                            <h4>Weekend reservations recommended</h4>
+                            <p>Especially for Friday and Saturday evenings when we have live music.</p>
+                        </div>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-parking"></i>
+                        <div>
+                            <h4>Ample parking available</h4>
+                            <p>Secure parking area with attendant service until closing time.</p>
+                        </div>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-wheelchair"></i>
+                        <div>
+                            <h4>Wheelchair accessible</h4>
+                            <p>Ramp access and adapted restroom facilities available.</p>
+                        </div>
+                    </div>
+                    <div class="tip-item">
+                        <i class="fas fa-wifi"></i>
+                        <div>
+                            <h4>Free WiFi</h4>
+                            <p>Complimentary high-speed WiFi for all guests.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">CAK</div>
+                <p class="footer-copyright">© 2025 Come Again Kicukiro. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#" class="contact-link">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div class="modal" id="contact-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Contact Us</h3>
+                <button class="modal-close" id="close-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+250 788 123 456</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@comeagain.rw</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Address</h4>
+                            <p>KN 45 St, Kicukiro, Kigali, Rwanda</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="4" placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
